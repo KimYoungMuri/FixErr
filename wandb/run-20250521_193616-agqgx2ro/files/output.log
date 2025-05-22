@@ -1,0 +1,18 @@
+Traceback (most recent call last):                                            
+  File "/Users/youngkim/cursorprojects/transformer/train.py", line 92, in <module>
+    main()
+    ~~~~^^
+  File "/Users/youngkim/cursorprojects/transformer/train.py", line 83, in main
+    trainer.train(
+    ~~~~~~~~~~~~~^
+        num_epochs=config.num_epochs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        gradient_accumulation_steps=1
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/youngkim/cursorprojects/transformer/training/trainer.py", line 84, in train
+    batch = {k: v.to(self.device) for k, v in batch.items()}
+                ^^^^
+AttributeError: 'list' object has no attribute 'to'

@@ -1,0 +1,7 @@
+{"time":"2025-05-22T00:02:35.040431-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/youngkim/cursorprojects/transformer/wandb/run-20250522_000234-c2vyagyy/logs/debug-core.log"}
+{"time":"2025-05-22T00:02:35.233119-04:00","level":"INFO","msg":"created new stream","id":"c2vyagyy"}
+{"time":"2025-05-22T00:02:35.233366-04:00","level":"INFO","msg":"stream: started","id":"c2vyagyy"}
+{"time":"2025-05-22T00:02:35.233409-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"c2vyagyy"}
+{"time":"2025-05-22T00:02:35.233552-04:00","level":"INFO","msg":"handler: started","stream_id":"c2vyagyy"}
+{"time":"2025-05-22T00:02:35.233547-04:00","level":"INFO","msg":"sender: started","stream_id":"c2vyagyy"}
+{"time":"2025-05-22T00:02:35.429154-04:00","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,24 @@
+2025-05-21 20:00:14,288 INFO    MainThread:89270 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_setup.py:_flush():70] Configure stats pid to 89270
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_setup.py:_flush():70] Loading settings from /Users/youngkim/.config/wandb/settings
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_setup.py:_flush():70] Loading settings from /Users/youngkim/cursorprojects/transformer/wandb/settings
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/youngkim/cursorprojects/transformer/wandb/run-20250521_200014-e3tnlb69/logs/debug.log
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/youngkim/cursorprojects/transformer/wandb/run-20250521_200014-e3tnlb69/logs/debug-internal.log
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:init():852] calling init triggers
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'vocab_size': 30522, 'hidden_size': 768, 'num_hidden_layers': 6, 'num_attention_heads': 12, 'intermediate_size': 3072, 'max_position_embeddings': 512, 'dropout': 0.1, 'layer_norm_eps': 1e-12, 'pad_token_id': 0, 'bos_token_id': 101, 'eos_token_id': 102, 'unk_token_id': 3, 'learning_rate': 5e-05, 'weight_decay': 0.01, 'warmup_steps': 1000, 'max_grad_norm': 1.0, 'num_epochs': 3, 'max_length': 512, 'num_beams': 4, 'temperature': 1.0, 'top_k': 50, 'top_p': 0.95, 'repetition_penalty': 1.0, 'mlm_probability': 0.15, 'span_masking': True, 'max_span_length': 5, 'max_code_length': 512, 'max_error_length': 128, 'use_ast': True, 'use_data_flow': True, '_wandb': {}}
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:init():893] starting backend
+2025-05-21 20:00:14,289 INFO    MainThread:89270 [wandb_init.py:init():897] sending inform_init request
+2025-05-21 20:00:14,365 INFO    MainThread:89270 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-21 20:00:14,365 INFO    MainThread:89270 [wandb_init.py:init():907] backend started and connected
+2025-05-21 20:00:14,376 INFO    MainThread:89270 [wandb_init.py:init():1005] updated telemetry
+2025-05-21 20:00:14,402 INFO    MainThread:89270 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-21 20:00:14,702 INFO    MainThread:89270 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-21 20:00:14,766 INFO    MainThread:89270 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-21 20:00:14,767 INFO    MainThread:89270 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-21 20:00:14,767 INFO    MainThread:89270 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-21 20:00:14,767 INFO    MainThread:89270 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-21 20:00:14,769 INFO    MainThread:89270 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-21 20:00:14,769 INFO    MainThread:89270 [wandb_watch.py:_watch():71] Watching
+2025-05-21 20:01:38,571 INFO    MsgRouterThr:89270 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.
