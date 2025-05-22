@@ -1,7 +1,7 @@
 # FixErr: Transformer-Based Code Repair Model
 
 ## Project Evolution
-This project began as an exploration of code repair using LSTM-based architectures. After initial experiments with LSTM, we transitioned to a transformer-based approach to leverage the power of self-attention mechanisms and parallel processing capabilities. This evolution was motivated by the transformer architecture's superior ability to capture long-range dependencies and its proven success in various sequence-to-sequence tasks.
+This project began as an exploration of code repair using LSTM-based architectures. After initial experiments with LSTM, I transitioned to a transformer-based approach to leverage the power of self-attention mechanisms and parallel processing capabilities. This evolution was motivated by the transformer architecture's superior ability to capture long-range dependencies and its proven success in various sequence-to-sequence tasks.
 
 ## Overview
 FixErr is a neural network model designed to automatically fix bugs in code. It uses a transformer-based architecture to learn the mapping between buggy code and its corrected version, effectively acting as an automated code repair system.
