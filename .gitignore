@@ -19,6 +19,16 @@ wandb/
 *.pt
 *.pth
 
+# Large data files
+data/processed_codexglue/
+data/raw_codexglue/
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.dat
+*.bin
+
 # OS
 .DS_Store
 .DS_Store?
