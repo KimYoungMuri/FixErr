@@ -108,9 +108,3 @@ CodeSage is a neural network model designed to automatically fix bugs in code. I
 - [ ] Add support for more programming languages
 - [ ] Optimize training speed
 - [ ] Add model quantization for deployment
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-[Add your chosen license here] 
